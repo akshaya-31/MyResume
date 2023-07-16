@@ -1,0 +1,169 @@
+body{
+    width: 100%;
+    font-family: monospace;
+    scroll-behavior: smooth;
+    overflow: visible;
+    text-align: center;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden !important;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: larger !important;
+    overflow: hidden !important;
+}
+nav a:hover{
+    background-color: rgb(175, 158, 158);
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden !important;
+}
+#home{
+    background-image: url(ca1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 10rem;
+    text-align: center;
+    color: whitesmoke;
+}
+#about{
+    background-color: rgb(58, 129, 192);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem;
+    text-align: center;
+    color: antiquewhite;
+    font-weight: 800 !important;
+    font-size: larger !important;
+}
+#about section{
+    display: flex;
+    justify-content: space-evenly;
+    border: transparent 2px black;
+    background: transparent;
+    padding: 10px;
+
+}
+.collapse {
+    background-color: #188f00d7;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+  
+.styling, .collapse:hover {
+    background-color: #e98383;
+    color: black;
+}
+  
+.collapse-text {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: blanchedalmond;
+    color: black;
+}
+#projects{
+    background-image: url(ca1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 6rem;
+    color: whitesmoke;
+    font-weight: 600 !important;
+}
+#restaurant a{
+    background-color: black;  
+    border-radius: 20px;
+    text-decoration: none;
+    color: blanchedalmond;
+    font-weight: bolder;
+    font-size: 100px !important;
+}
+#restaurant a:hover{
+    background-color: antiquewhite;
+    color: black;
+    cursor: grab;
+}
+#skills{
+    background-color: bisque;
+    background-attachment: fixed;
+    padding: 6rem;
+    text-align: center;
+    color:black;
+}
+.tool .text{
+    visibility: hidden;
+}
+.tool:hover .text{
+    visibility: visible;
+}
+#software ul li{
+    list-style: none;
+}
+#contact{
+    background-image: url(ca1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 6rem;
+    text-align: center;
+}
+form input,textarea{
+    border: transparent;
+    border-radius: 10px;
+    background-color: azure;
+}
+form button{
+    background-color: beige;
+    border: transparent;
+    border-radius: 20px;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+}
+form textarea:hover{
+    background-color: bisque;
+}
+form input:hover{
+    background-color: bisque;
+}
+form button:hover{
+    background-color: azure;
+}
+footer{
+    background-color: rgb(221, 179, 221);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer p{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer p a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

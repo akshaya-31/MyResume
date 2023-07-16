@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Akshaya Rajendran</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <nav>
+			<span style="color: aliceblue;">Akshaya Rajendran</span>
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#skills">Skills</a>
+			<a href="#projects">Project</a>
+			<a href="#contact">Contact</a>
+		</nav>
+        <div id="home">
+			<h1>Akshaya R</h1>
+			<h1>A Software Tester in training</h1>
+		</div>
+        <div id="about">
+			<h2>Akshaya R</h2>
+			<p>B.E Graduate in Computer Science and Engineering</p>
+			<p>I'm currently enrolled in a software testing course. an engineer with a specialisation on web development, familiarity with HTML, JAVA, and practical experience in creating and managing the web development. I'm looking forward to having leadership responsibilities and managing various technologies.</p>
+			<section id="others">
+                <div id="hobbies">
+                    <button type="button" class="collapse">Hobbies</button>
+                    <div class="collapse-text">
+                        <ul>
+                            <li>Reading Books</li>
+                            <li>Favorite Books-<i>Bite Size Happiness</i></li>
+                            <li>Listening Music</li>
+                            <li>Writing Letters</li>
+                            <li>Painting</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="collapse">Languages</button>
+                    <div class="collapse-text">
+                        <ul>
+                            <li>Tamil</li>
+                            <li>English</li>
+                        </ul>
+                    </div>
+                </div>
+			</section>
+		</div>
+        <div id="projects">
+			<section id="iv">
+				<h2>Industrial Visit</h2>
+				<ul>
+					<li>Visited “HCL Technology” which is located in Chennai.</li>
+					<li>Visited “ISRO” which is located in Kerala</li>
+				</ul>
+			</section>
+			<section id="college_project">
+				<h2>Projects</h2>
+				<ul>
+					<li>Mini project on “Credit Card Processing” using database connectivity.</li>
+					<li>Final year project on VANET using java “Privacy preserving cloud-based technology in computer network”.</li>
+				</ul>
+			</section>
+			<section id="liveproject">
+				<h2>portfolio Projects</h2>
+				<p id="restaurant"><a href="https://github.com/akshaya-31/Restaurant.git">FoodRise</a></p>
+				<p>Others</p>
+				<p>Will Post Soon!</p>
+			</section>
+		</div>
+        <div id="skills">
+			<h1>Web & Programming Languages</h1>
+			<div id="frontend">
+				<label class="tool"><label for="html">HTML</label><meter id="html" value="1.0"></meter><span class="text">100%</span></label>
+				<label class="tool"><label for="css">Css</label><meter id="css" value="1.0"></meter><span class="text">100%</span></label>
+				<label class="tool"><label for="bootstrap">Bootstrap</label><meter id="bootstrap" value="0.8"></meter><span class="text">80%</span></label>
+				<label class="tool"><label for="js">JavaScript</label><meter id="js" value="0.8"></meter><span class="text">80%</span></label>
+				<label class="tool"><label for="css">React Js</label><meter id="css" value="0.7"></meter><span class="text">70%</span></label>
+			</div>
+			<div id="backend">
+				<label class="tool"><label for="java">Java</label><meter id="java" value="0.8"></meter><span class="text">80%</span></label>
+				<label class="tool"><label for="python">Python</label><meter id="python" value="0.75"></meter><span class="text">75%</span></label>
+				<label class="tool"><label for="sql">SQL</label><meter id="sql" value="0.9"></meter><span class="text">90%</span></label>
+				<label class="tool"><label for="c">C</label><meter id="c" value="0.8"></meter><span class="text">80%</span></label>
+				<label class="tool"><label for="c++">C++</label><meter id="c++" value="0.8"></meter><span class="text">80%</span></label>
+			</div>
+			<h1>Softwares</h1>
+			<div id="software">
+				<ul>
+					<li>Ms Word,Ms Excel,Ms OutLook</li>
+					<li> Visual Studio & Visual Studio Code</li>
+					<li>Netbeans & Eclipse</li>
+					<li>Pycharm</li>
+				</ul>				
+			</div>
+		</div>
+        <div id="contact">
+			<form action="mailto:akshayarvpm@gmail.com">
+				<p><input type="text" id="name" name="fname" placeholder="enter your name here" required></p>
+				<p><input type="email" id="mail" name="email" placeholder="enter your email id here" required></p>
+				<p><textarea cols="50" rows="3" placeholder="enter your message here"></textarea></p>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+		<footer>
+			<h2>Akshaya Rajendran</h2>
+            <p><a href="tel:+917094289270">7094289270</a><a href="mailto:akshayarajendran03@gmail.com">akshayarajendran03@gmail.com</a></p>
+		</footer>
+        <script>
+            var a = document.getElementsByClassName("collapse");
+            var i;
+            
+            for (i = 0; i < a.length; i++) {
+              a[i].addEventListener("click", function() {
+                this.classList.toggle("styling");
+                var b = this.nextElementSibling;
+                if (b.style.display === "block") {
+                  b.style.display = "none";
+                } else {
+                  b.style.display = "block";
+                }
+              });
+            }
+        </script>
+    </body>
+</html>
